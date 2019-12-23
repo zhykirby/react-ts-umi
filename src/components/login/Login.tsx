@@ -9,7 +9,7 @@ const pwBefore = (
     <div className={loginStyles.width50}>密码</div>
 )
 
-const loginBox : React.FC<{}> = () => {
+const loginBox: React.FC<{}> = () => {
     return (
         <div className={loginStyles.loginOutter}>
             <span>登录页面</span>
