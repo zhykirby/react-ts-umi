@@ -12,9 +12,16 @@ const config: IConfig =  {
         { path: '/', component: '../pages/index' },
         { path: '/login', component: '../pages/login'}
       ]
+    },
+    {
+      path: '/backstage',
+      component: '../layouts/backstage',
+      //Routes: ['']
+      routers: [
+        {}
+      ]
     }
   ],
-  history: 'hash',
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     ['umi-plugin-react', {

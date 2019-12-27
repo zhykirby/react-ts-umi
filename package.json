@@ -15,7 +15,8 @@
     "history": "^4.10.1",
     "qs": "^6.9.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "umi-plugin-react": "^1.14.10"
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",
