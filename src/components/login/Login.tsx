@@ -11,7 +11,7 @@ const pwBefore = (
 )
 
 function onLoading() {
-    router.push('/backstage');
+    return router.push('/backstage');
 }
 
 const loginBox: React.FC<{}> = () => {
