@@ -5,22 +5,16 @@ const config: IConfig =  {
   //history: 'hash',
   treeShaking: true,
   routes: [
+    //我曹，坑爹啊，umi绝对不能放一个index的layout，坑了我半年
     {
       path: '/',
       component: '../layouts/index',
       routes: [
         { path: '/', component: '../pages/index' },
-        { path: '/login', component: '../pages/login'}
+        { path: '/login', component: '../pages/login'},
+        { path: '/backstage', component: '../pages/backstage/index'}
       ]
     },
-    {
-      path: '/backstage',
-      component: '../layouts/backstage',
-      //Routes: ['']
-      routers: [
-        {}
-      ]
-    }
   ],
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
