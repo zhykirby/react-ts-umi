@@ -1,5 +1,6 @@
-export interface IMenuItem {
-    path: string;
+import { IRoutes } from 'src/declares/components'
+
+export interface IMenuItem extends IRoutes {
     name: string;
     icon?: string;
     children?: IMenuItem[];
